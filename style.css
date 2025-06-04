@@ -35,7 +35,7 @@ header{
     color: #3f3f3f;
     font-size: x-large;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 .myo-body {
@@ -69,4 +69,33 @@ button:hover {
     background-color: #3f3f3f;
     color: white;
     border: 2px solid #3f3f3f;
+}
+
+img {
+    display: block;
+    width: 50%;
+    size: 30px;
+    align-items: left;
+    padding: 30px;
+    border-radius: 60px;
+}
+
+.imagenm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.imagenm img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.textnextnm {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f3f3f;
+    text-align: center;
 }
