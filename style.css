@@ -1,5 +1,5 @@
 header{
-    background-color: #F15025;
+    background-color: 	#6e9474;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -74,7 +74,7 @@ button:hover {
 img {
     display: block;
     width: 50%;
-    size: 30px;
+    size: 3px;
     align-items: left;
     padding: 30px;
     border-radius: 60px;
