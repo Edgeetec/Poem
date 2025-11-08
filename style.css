@@ -104,15 +104,39 @@ img {
 .About {
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3f3f3f;
-    text-align: center;
-    padding: 50px;
+    color: white;
+    text-align: center;;
 }
 
 .abtstt {
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3f3f3f;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: 	#3f3f3f;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+a {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+a:hover {
+    color: #6e9474;
 }
