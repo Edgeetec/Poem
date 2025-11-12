@@ -1,4 +1,4 @@
-header{
+.header{
     background-color: 	#6e9474;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@ header{
     border-radius: 15px 15px 0 0;
 }
 
-.top-bar{ 
+.top-bar{
     background-color: #3f3f3f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
@@ -116,7 +116,7 @@ img {
     padding-top: 20px;
 }
 
-footer {
+.footer1 {
     background-color: 	#3f3f3f;
     padding: 30px;
     display: flex;
@@ -129,7 +129,7 @@ footer {
     border-radius: 15px 15px 15px 15px;
 }
 
-a {
+.footer1 a {
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -137,6 +137,14 @@ a {
     padding-top: 20px;
 }
 
-a:hover {
+.footer1 a:hover {
     color: #6e9474;
+}
+
+.secret {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f3f3f;
+    text-align: center;
+    padding-top: 1000px;
 }
